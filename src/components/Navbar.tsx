@@ -22,7 +22,6 @@ const NavBar: React.FC = () => {
         <img src="/icons/logo.png" alt="Logo" className="h-10" />
       </Link>
 
-      {/* Hamburger Menu Icon */}
       <button
         className="md:hidden text-2xl"
         onClick={toggleMenu}
@@ -31,7 +30,6 @@ const NavBar: React.FC = () => {
         <Icon icon={isMenuOpen ? "mdi:close" : "mdi:menu"} />
       </button>
 
-      {/* Desktop View */}
       <div className="hidden md:flex space-x-8">
         {navLinks.map((link, index) => (
           <Link

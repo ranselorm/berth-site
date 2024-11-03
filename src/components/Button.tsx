@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ text, bgColor }) => {
   return (
     <button
-      className={`px-8 py-3 rounded hover:bg-gray-100 transition capitalize font-primary  ${
+      className={`px-8 py-2 rounded hover:bg-gray-100 transition capitalize font-primary  ${
         bgColor ? "text-black" : "bg-none text-white border border-white"
       }`}
       style={{
