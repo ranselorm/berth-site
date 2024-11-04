@@ -4,6 +4,9 @@ import Hero from "./components/Hero";
 import Info from "./components/Info";
 import Event from "./components/Event";
 import Customer from "./components/Customers";
+import Brands from "./components/Brands";
+import Industries from "./components/Industries";
+import CardContainer from "./components/CardContainer";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Stats />
       <Event />
       <Customer />
+      <Brands />
+      <Industries />
+      <CardContainer />
     </>
   );
 }
