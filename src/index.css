@@ -14,3 +14,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.title {
+  @apply text-5xl md:text-5xl font-bold text-[#191919] leading-tight;
+}
+
+.para {
+  @apply text-[32px] md:text-[45px] leading-[116%];
+}

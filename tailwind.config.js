@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         primary: ["Aeonik", "sans-serif"],
       },
+      colors: {
+        grey: "#6b665f",
+        red: "#e8dbca",
+      },
     },
   },
   plugins: [],
