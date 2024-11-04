@@ -11,8 +11,7 @@ const BlurredImageWrapper: React.FC<BlurredImageWrapperProps> = ({
   altText,
 }) => {
   return (
-    <div className="relative w-[94%] flex justify-center h-full overflow-hidden">
-      {/* Blurred background effect */}
+    <div className="relative w-[94%]">
       <div
         className="absolute -inset-4 filter blur opacity-75"
         style={{
@@ -22,10 +21,9 @@ const BlurredImageWrapper: React.FC<BlurredImageWrapperProps> = ({
         }}
       ></div>
 
-      {/* Main image */}
       <img
         src={imageSrc}
-        alt={altText || "Image"}
+        alt={altText || "Main visual"}
         className="relative z-10 rounded-3xl object-cover w-full h-[94%] mt-3"
       />
     </div>

@@ -22,3 +22,7 @@ body {
 .para {
   @apply text-[32px] md:text-[45px] leading-[116%];
 }
+
+.subtext {
+  @apply text-[24px] md:text-[32px] leading-[136%];
+}
