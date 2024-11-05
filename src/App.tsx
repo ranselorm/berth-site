@@ -8,6 +8,7 @@ import Brands from "./components/Brands";
 import Industries from "./components/Industries";
 import CardContainer from "./components/CardContainer";
 import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Industries />
       <CardContainer />
       <CallToAction />
+      <Footer />
     </>
   );
 }

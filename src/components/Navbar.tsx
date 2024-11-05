@@ -19,7 +19,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="bg-white shadow-md md:px-14 px-4 py-3 flex justify-between items-center font-primary relative">
       <Link to="/" className="flex items-center">
-        <img src="/icons/logo.png" alt="Logo" className="h-10" />
+        <img src="/icons/main.png" alt="Logo" className="h-10" />
       </Link>
 
       <button
