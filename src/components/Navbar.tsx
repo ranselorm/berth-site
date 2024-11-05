@@ -51,7 +51,6 @@ const NavBar: React.FC = () => {
         </Link>
       </div>
 
-      {/* Mobile View */}
       {isMenuOpen && (
         <div className="absolute top-full left-0 w-full h-screen bg-white shadow-md md:hidden flex flex-col space-y-4 p-4 z-20 border-t border-gray-200 overflow-hidden">
           {navLinks.map((link, index) => (

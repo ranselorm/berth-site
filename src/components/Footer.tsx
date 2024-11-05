@@ -38,7 +38,6 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white py-12 px-4 md:px-14 font-primary">
       <div className="flex flex-col md:flex-row md:justify-between gap-10 md:gap-20">
-        {/* Logo and Contact Info */}
         <div className="flex-1 md:max-w-[300px]">
           <img
             src="/icons/main-mix.png"

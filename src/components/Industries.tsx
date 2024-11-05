@@ -3,7 +3,6 @@ import React from "react";
 const Industries: React.FC = () => {
   return (
     <section className="flex flex-col md:flex-row bg-red py-16 px-4 md:px-14 gap-8 font-primary">
-      {/* Left Column - Industry List */}
       <div className="flex-1">
         <h2 className="text-lg mb-6 text-[22px]">
           The Identity solution for every industry
@@ -41,14 +40,12 @@ const Industries: React.FC = () => {
         </a>
       </div>
 
-      {/* Right Column - Image with Overlay */}
       <div className="relative flex-1 rounded-xl overflow-hidden">
         <img
           src="/images/industry.png"
           alt="Industry"
           className="w-full h-full object-cover rounded-xl"
         />
-        {/* Overlay Card */}
         <div className="absolute bottom-4 right-2 md:right-4 bg-white p-4 rounded-lg shadow-lg text-sm md:w-48 w-full">
           <p className="font-semibold">State of Illinois</p>
           <p className="text-gray-600">1:1 Million login accounts using Okta</p>

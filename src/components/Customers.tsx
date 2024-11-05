@@ -1,5 +1,5 @@
 import React from "react";
-import BlurredWrapper from "./BlurredWrapper"; // Ensure the path is correct for your project structure
+import BlurredWrapper from "./BlurredWrapper";
 
 const Customer: React.FC = () => {
   return (
