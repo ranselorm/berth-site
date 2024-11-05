@@ -4,7 +4,7 @@ import BlurredWrapper from "./BlurredWrapper"; // Ensure the path is correct for
 const Customer: React.FC = () => {
   return (
     <section className="mx-4 md:mx-14">
-      <h4 className="para my-12">Here&apos;s what our awesome customers say</h4>
+      <h4 className="para my-8">Here&apos;s what our awesome customers say</h4>
       <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between h-[80vh] bg-black text-white overflow-hidden font-primary rounded-xl">
         <div className="md:w-1/2 space-y-8 md:px-14 px-4 py-4 md:py-0">
           <p className="text-lg md:text-xl">

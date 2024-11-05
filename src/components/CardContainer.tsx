@@ -31,7 +31,7 @@ const CardContainer: React.FC = () => {
 
   return (
     <section className="px-4 md:px-14 py-12">
-      <h3 className="para py-12 mb-8">
+      <h3 className="para py-8 mb-6">
         We're here for you, from always-on customer support to thousands of
         integrations designed for every use case
       </h3>

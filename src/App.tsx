@@ -7,6 +7,7 @@ import Customer from "./components/Customers";
 import Brands from "./components/Brands";
 import Industries from "./components/Industries";
 import CardContainer from "./components/CardContainer";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Brands />
       <Industries />
       <CardContainer />
+      <CallToAction />
     </>
   );
 }

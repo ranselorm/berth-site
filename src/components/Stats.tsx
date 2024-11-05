@@ -3,7 +3,7 @@ import BlurredWrapper from "./BlurredWrapper";
 
 const Stats: React.FC = () => {
   return (
-    <section className="bg-red pt-20 md:pt-32 pb-12 px-4 md:px-14 font-primary">
+    <section className="bg-red pt-20 md:pt-32 pb-6 px-4 md:px-14 font-primary">
       <div className="flex flex-col md:flex-row gap-4 items-start">
         <div className="flex-1 pr-4">
           <p className="subtext leading-loose text-grey">
@@ -34,8 +34,8 @@ const Stats: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-24">
-        <div className="flex flex-col items-center bg-white rounded-xl transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-20 mb-10">
+        <div className="flex flex-col items-center bg-white rounded-xl duration-300">
           <div className="w-full rounded-xl overflow-hidden mb-4">
             <BlurredWrapper imageSrc="/images/womanvr.jpg" />
           </div>
@@ -53,7 +53,7 @@ const Stats: React.FC = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col items-center bg-white rounded-xl transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
+        <div className="flex flex-col items-center bg-white rounded-xl">
           <div className="w-full rounded-xl overflow-hidden mb-4">
             <BlurredWrapper imageSrc="/images/vr.jpg" />
           </div>

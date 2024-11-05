@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           faster.
         </p>
         <div className="space-x-4">
-          <Button text="Free trial" bgColor="#fff" />
+          <Button text="Free trial" bgColor="white" />
           <Button text="Talk to us" />
         </div>
       </div>

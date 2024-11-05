@@ -8,13 +8,7 @@ interface CardProps {
   linkHref: string;
 }
 
-const Card: React.FC<CardProps> = ({
-  title,
-  subtitle,
-  description,
-  linkText,
-  linkHref,
-}) => {
+const Card: React.FC<CardProps> = ({ title, subtitle, description }) => {
   return (
     <div className="w-2/6 rounded-xl transition-all duration-300 hover:bg-blue-600 hover:text-white bg-red p-8">
       <div className="flex flex-col gap-y-6">
